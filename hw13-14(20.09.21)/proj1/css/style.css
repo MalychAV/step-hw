@@ -1,0 +1,231 @@
+/*сброс стандартных стилей*/
+* {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style-type: none;
+}
+.header {
+	width: 1170px;	
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	font-family: sans-serif;
+	font-size: 14px;
+	align-items: center;
+	padding: 30px 0;
+}
+
+.menu {
+	display: flex;
+}
+.menu-item:hover{
+	cursor: pointer;
+	border: 2px solid silver;
+	background: silver;
+}
+.menu-item a {
+	display: block;
+	color: #868686;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 10px 20px;
+	
+}
+.menu-item .active {
+	color: white;
+	background: orange;
+}
+.main-content {
+	background: #6f9cca;
+	height: 450px;
+	display: flex;
+	flex-direction: column;
+	padding: 110px 0;
+}
+
+.banner {
+	font-family: sans-serif;
+	
+}
+.banner1 {
+	color:#ffffff;
+	justify-content: center;
+	display: flex;
+	font-size: 35px;	
+}
+.banner2 {
+	color:#ffffff;
+	justify-content: center;
+	display: flex;
+	font-size: 16px;
+	padding: 15px 0;    
+	opacity: .6;	
+}
+.registration {
+	justify-content: center;
+	display: flex;
+	padding: 35px 0px;	
+}
+.registr1 {
+	width: 280px;
+	margin: 10px;
+	background: white;
+	color: #a9a9a9;
+    align-items: center;
+	font-size: 13px;
+	display: flex;
+	justify-content: flex-start;	
+}
+.registr1:hover {
+	cursor: pointer;
+	border: 2px solid silver;
+	background: bisque;
+}
+.registr2 {
+	width: 280px;
+	margin: 10px;
+	background: white;
+	color: #a9a9a9;
+	font-size: 13px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+.registr2:hover {
+	cursor: pointer;
+	border: 2px solid silver;
+	background: bisque;
+}
+.registr3 {
+	width: 280px;
+	margin: 10px;
+	background: white;
+	color: #a9a9a9;
+	font-size: 13px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+.registr3:hover {
+	cursor: pointer;
+	border: 2px solid silver;
+	background: bisque;
+}
+.registr4 {
+	width: 210px;
+	margin: 10px;
+	background: orange;
+	height: 50px;
+	color: #ffffff;
+	font-size: 14px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.registr4:hover{
+	cursor: pointer;
+	border: 2px solid silver;
+	
+}
+.laptop {
+	flex-direction: column;
+	display: flex;
+	align-items: center;
+}
+.laptop1 {
+	width: 650px;
+	height: 345px;
+}
+.laptop2 {
+	width: 450px;
+	height: 270px;	
+}
+.eclipse {
+	transition: color .5s;
+}
+.Ellipse1:hover{
+	cursor: pointer;
+	border: 2px solid silver;
+	background: silver;
+}
+.Ellipse2:hover{
+	cursor: pointer;
+	border: 2px solid silver;	
+	background: silver;
+}
+.Ellipse3:hover{
+	cursor: pointer;
+	border: 2px solid silver;
+	background: silver;	
+}
+.human {
+	padding: 15px;
+}
+.email {
+	padding: 15px;
+}
+.phone {
+	padding: 15px;
+}
+.services {
+	display: flex;
+	flex-direction: column;
+	font-family: sans-serif;
+	padding: 200px;
+}
+
+.serv {
+	color:#394b50;
+	justify-content: center;
+	display: flex;
+	font-size: 35px;
+	font-family: sans-serif;
+	font-weight: bolder;	
+}
+.serv1 {
+	color:#394b50;
+	justify-content: center;
+	display: flex;
+	font-size: 16px;
+	padding: 15px 0;		
+}
+.description {
+	display: flex;	
+	margin: 50px auto;
+	width: 1170px;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+}
+.settings:hover{
+	cursor: pointer;
+}
+.descr {
+	margin-top: 10px;
+	display: flex;
+	margin-bottom: 10px;
+	margin-right: 10px;	
+	width: calc((1170px - (2 * 10px)) / 2);
+	height: 150px;	
+}
+
+.descr_text1 {
+	color:#394b50;
+	margin-left: 30px;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+.descr_text2 {
+	color:#394b50;
+	margin-left: 10px;
+	font-size: 13px;
+	font-family: sans-serif;
+	margin-top: 10px;
+	margin-right: 100px;
+	opacity: .6;	
+}
+.descr_text1:hover{
+	background: greenyellow;
+}

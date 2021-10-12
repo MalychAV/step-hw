@@ -1,0 +1,129 @@
+/*сброс стандартных стилей*/
+* {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style-type: none;
+}
+.header {
+	width: 1170px;	
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	font-family: sans-serif;
+	font-size: 14px;
+	align-items: center;
+	padding: 30px 0;
+}
+
+.menu {
+	display: flex;
+}
+
+.menu-item a {
+	display: block;
+	color: #868686;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 10px 20px;
+	
+}
+.menu-item .active {
+	color: white;
+	background: orange;
+}
+.main-content {
+	background: #6f9cca;
+	height: 450px;
+	display: flex;
+	flex-direction: column;
+	padding: 110px 0;
+}
+
+.banner {
+	font-family: sans-serif;
+	
+}
+.banner1 {
+	color:#ffffff;
+	justify-content: center;
+	display: flex;
+	font-size: 35px;	
+}
+.banner2 {
+	color:#ffffff;
+	justify-content: center;
+	display: flex;
+	font-size: 16px;
+	padding: 15px 0;    
+	opacity: .6;	
+}
+.registration {
+	justify-content: center;
+	display: flex;
+	padding: 35px 0px;	
+}
+.registr1 {
+	width: 280px;
+	margin: 10px;
+	background: white;
+	color: #a9a9a9;
+    align-items: center;
+	font-size: 13px;
+	display: flex;
+	justify-content: flex-start;	
+}
+.registr2 {
+	width: 280px;
+	margin: 10px;
+	background: white;
+	color: #a9a9a9;
+	font-size: 13px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+.registr3 {
+	width: 280px;
+	margin: 10px;
+	background: white;
+	color: #a9a9a9;
+	font-size: 13px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+.registr4 {
+	width: 210px;
+	margin: 10px;
+	background: orange;
+	height: 50px;
+	color: #ffffff;
+	font-size: 14px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.laptop {
+	flex-direction: column;
+	display: flex;
+	align-items: center;
+}
+.laptop1 {
+	width: 650px;
+	height: 345px;
+}
+.laptop2 {
+	width: 450px;
+	height: 270px;	
+}
+.human {
+	padding: 15px;
+}
+.email {
+	padding: 15px;
+}
+.phone {
+	padding: 15px;
+}

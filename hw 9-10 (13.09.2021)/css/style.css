@@ -1,0 +1,64 @@
+/*сброс стандартных стилей*/
+* {
+	margin: 0;
+	padding: 0;
+}
+.menu {
+	border: 20px solid white;
+	display: flex;
+	justify-content:space-between;
+}
+.menu1 {
+	border: 5px solid white;
+	display: flex;
+	justify-content:space-between;
+	width: 800px;
+}
+.menu2{
+	border: 5px solid white;
+	display: flex;
+	justify-content: flex-end;
+}
+.cproduct {
+	display:flex;
+}
+.cface {
+	width: 800px;
+	display: flex;	
+}
+.cproduct1 {
+	display: flex;
+	align-items: flex-start;
+}
+.iproduct {
+	border: 15px solid white;
+	display: flex;
+	width: 800px;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.salec {
+	
+}
+.stuff {
+	display: flex;
+	justify-content: space-between;
+}
+.price {
+	border: 15px solid white;
+	display: flex;
+	width: 500px;
+	align-items: center;
+}
+.price1{
+	width: 200px;
+	border: 15px solid white;
+	
+}
+
+
+
+
+
+
+
