@@ -1,0 +1,189 @@
+/*сброс стандартных стилей*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+li {
+	list-style-type: none;
+}
+.body {
+	border: 1px solid #fff;
+}
+.aplication {	
+
+}
+.container {
+	
+}
+.header {
+	display: flex;
+	justify-content: space-evenly;	
+}
+.content1 {	
+	
+}
+.block-bird {
+	display: flex;
+    background: blue;
+    border-radius: 50%;
+    padding: 20px;
+    position: relative;
+    color: #fff;
+	height: 50px;
+  	width: 50px;
+	margin-top: 100px;
+	margin-left: 150px;
+}
+.block-bird::after {
+    content: ''; 
+    position: absolute; /* Абсолютное позиционирование */
+    right: 70px; bottom: 50px; /* Положение треугольника */
+    border: 10px solid transparent; /* Прозрачные границы */
+    border-top: 10px solid blue; /* Добавляем треугольник */
+	transform: scale(3) rotate(195deg) skew(25deg);
+}
+.block-bird::before {
+    content: ''; 
+    position: absolute; /* Абсолютное позиционирование */
+    left: 65px; bottom: 50px; /* Положение треугольника */
+    border: 10px solid transparent; /* Прозрачные границы */
+    border-top: 10px solid blue; /* Добавляем треугольник */
+	transform: scale(3) rotate(170deg) skew(-15deg);
+}
+.block-sun {
+	position: relative;	
+}
+.circle {
+	  background-color: #ffff00;  	  
+	   position: absolute;	   
+	   width:120px;
+	   height:120px;
+	   border-radius:120px;	  
+	   margin-top: -20px;
+}
+.line {		
+		position:absolute;
+		width:100px;
+		height:30px;
+		background-color:#ffff00;
+}
+#line1 {
+	left:110px;
+	top:5px;		
+	transform: rotate(-18deg);	
+}
+#line2 {
+	left:95px;
+	top:80px;		
+	transform: rotate(30deg);	
+}
+#line3 {
+	left:10px;
+	top:115px;		
+	transform: rotate(90deg);	
+} 
+#line4 {
+	right:-20px;
+	top:75px;		
+	transform: rotate(155deg);	
+} 
+#line5 {
+	right:-10px;
+	top:0px;		
+	transform: rotate(20deg);	
+} 
+.header1 {
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-evenly
+	
+}
+.wall {
+	display: flex;
+	margin-left: 100px;
+	margin-top: 250px;
+	width: 300px;
+	height: 300px;
+	background: coral;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.window {
+	display: flex;
+	width: 150px;
+	height: 100px;
+	background: lavender;
+}
+.wall::before {
+    content: ''; 
+    position: absolute; /* Абсолютное позиционирование */
+    right: 140px; top: -180px; /* Положение треугольника */
+    border: 8px solid transparent; /* Прозрачные границы */
+    border-top: 10px solid red; /* Добавляем треугольник */
+	transform: scale(25) rotate(180deg);
+
+}
+.wall::after {
+    content: ''; 
+    position: absolute; /* Абсолютное позиционирование */
+    left: 130px; top:-75px; /* Положение треугольника */
+    border: 10px solid transparent; /* Прозрачные границы */
+    width:20px;
+	height:20px;
+	border-radius:20px;	
+	background:lavender;
+	transform: scale(2) rotate(170deg);	
+}
+.tree1 {
+	display: flex;
+	width: 20px;
+	height: 250px;
+	background: brown;
+	position: relative;	
+	margin-left: 150px;
+}
+.tree1::before {
+    content: ''; 
+    position: absolute; /* Абсолютное позиционирование */
+    left: -10px; 
+	top: -50px; /* Положение треугольника */
+    border: 10px solid transparent; /* Прозрачные границы */
+	width:35px;
+	height:35px;
+	border-radius:35px;
+	background: green;
+	transform: scale(5);
+}
+.tree2 {
+	display: flex;
+	width: 20px;
+	height: 250px;
+	background: brown;
+	position: relative;	
+	margin-left: 150px;
+}
+.treangle {
+	content: ''; 
+    position: absolute; /* Абсолютное позиционирование */
+    
+    border: 8px solid transparent; /* Прозрачные границы */
+    border-top: 10px solid green; /* Добавляем треугольник */
+}
+#treangle1 {	
+	top:-15px;	
+	transform: scale(14) rotate(-180deg);	
+}
+#treangle2 {
+	top:-70px;		
+	transform: scale(12) rotate(-180deg);
+}
+#treangle3 {
+	top:-115px;		
+	transform: scale(9) rotate(-180deg);
+}
+
