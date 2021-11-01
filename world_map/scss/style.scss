@@ -1,0 +1,278 @@
+@import "./common";
+@import "./fonts";
+.world {
+	background: url(../img/Background.png);
+	display: flex;	
+	margin: 50px auto;
+	width: 1170px;
+	flex-wrap: wrap;
+	justify-content: center;	
+	background-repeat: no-repeat;
+	background-size: 100%;
+	.world-continent {	
+	display: flex;
+	align-items: center;
+	flex-direction: column;	
+}
+.world__map {	
+	display: flex;	
+	width: calc(1170px  / 3);
+	height: 150px;	
+}
+.world-america {		
+	background: #003562;
+	opacity: .8;
+	display: flex;	
+	height: 380px;		
+}
+.world-europe {
+	background: #620360;
+	opacity: .8;
+	display: flex;	
+	height: 380px;		
+}
+.world-asia {
+	background: #9d0a0e;
+	opacity: .8;
+	display: flex;		
+	height: 380px;		
+}
+.world-none {
+	background: #003562;
+	opacity: .8;
+	display: flex;		
+	height: 380px;		
+}
+.world-africa {
+	background: #fff100 ;
+	opacity: .8;
+	display: flex;		
+	height: 380px;	
+}
+.world-australia {
+	background: #f7931d ;
+	opacity: .8;
+	display: flex;	
+	height: 380px;	
+}	
+.world-continent__name {
+	font-size: 38px;
+	color: white;
+	font-family: 'Myriad Pro';
+	font-weight: bold;
+	font-style: normal;
+}
+.world-country {
+	opacity: .8;
+	background: #2a2a2a;
+	height: 70%;
+	width: 300px;
+	display: flex;	
+	flex-direction: column;
+	margin-left: 35px;
+}	
+.world-country__name {
+	font-size: 30px;
+	color: white;
+	margin-left: 100px;
+	margin-top: 10px;
+	font-family: 'Myriad Pro';
+	font-weight: bold;
+	font-style: normal;
+}
+.world-country__name::before {
+	content: "";
+	background: url(../img/flag.png);
+	margin-left: -30px;
+	position: absolute;
+	width: 100px;
+	height: 50px;
+	margin-left: -100px;	
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin-top: -10px;
+}
+.world-cities {
+	font-size: 26px;
+	color: white;
+	margin-left: 20px;
+	margin-top: 50px;
+}
+.world-cities1 {
+	color:white;
+	margin-right: 30px;
+	margin-left: 70px;
+	font-size: 21px;	
+	margin-top: 20px;
+	font-family: 'Myriad Pro';
+	font-weight: normal;
+	font-style: normal;
+}
+.world-cities2 {
+	color:white;
+	margin-right: 30px;
+	margin-left: 70px;
+	font-size: 21px;	
+	margin-top: 20px;
+	margin-right: 100px;
+	font-family: 'Myriad Pro';
+	font-weight: normal;
+	font-style: normal;
+}
+.world-cities1::before {
+	content: "";
+	background: url(../img/Layer3.png);
+	margin-left: -40px;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	margin-left: -55px;	
+	background-repeat: no-repeat;
+	background-size: contain;	
+}
+.world-cities2::before {
+	content: "";
+	background: url(../img/Layer2.png);
+	margin-left: -40px;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	margin-left: -55px;	
+	background-repeat: no-repeat;
+	background-size: contain;	
+}
+}
+
+.world-continent {	
+	display: flex;
+	align-items: center;
+	flex-direction: column;	
+}
+.world__map {	
+	display: flex;	
+	width: calc(1170px  / 3);
+	height: 150px;	
+}
+.world-america {		
+	background: #003562;
+	opacity: .8;
+	display: flex;	
+	height: 380px;		
+}
+.world-europe {
+	background: #620360;
+	opacity: .8;
+	display: flex;	
+	height: 380px;		
+}
+.world-asia {
+	background: #9d0a0e;
+	opacity: .8;
+	display: flex;		
+	height: 380px;		
+}
+.world-none {
+	background: #003562;
+	opacity: .8;
+	display: flex;		
+	height: 380px;		
+}
+.world-africa {
+	background: #fff100 ;
+	opacity: .8;
+	display: flex;		
+	height: 380px;	
+}
+.world-australia {
+	background: #f7931d ;
+	opacity: .8;
+	display: flex;	
+	height: 380px;	
+}	
+.world-continent__name {
+	font-size: 38px;
+	color: white;
+	font-family: 'Myriad Pro';
+	font-weight: bold;
+	font-style: normal;
+}
+.world-country {
+	opacity: .8;
+	background: #2a2a2a;
+	height: 70%;
+	width: 300px;
+	display: flex;
+	
+	flex-direction: column;
+	margin-left: 35px;
+}	
+.world-country__name {
+	font-size: 30px;
+	color: white;
+	margin-left: 100px;
+	margin-top: 10px;
+	font-family: 'Myriad Pro';
+	font-weight: bold;
+	font-style: normal;
+}
+.world-country__name::before {
+	content: "";
+	background: url(../img/flag.png);
+	margin-left: -30px;
+	position: absolute;
+	width: 100px;
+	height: 50px;
+	margin-left: -100px;	
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin-top: -10px;
+}
+.world-cities {
+	font-size: 26px;
+	color: white;
+	margin-left: 20px;
+	margin-top: 50px;
+}
+.world-cities1 {
+	color:white;
+	margin-right: 30px;
+	margin-left: 70px;
+	font-size: 21px;	
+	margin-top: 20px;
+	font-family: 'Myriad Pro';
+	font-weight: normal;
+	font-style: normal;
+}
+.world-cities2 {
+	color:white;
+	margin-right: 30px;
+	margin-left: 70px;
+	font-size: 21px;	
+	margin-top: 20px;
+	margin-right: 100px;
+	font-family: 'Myriad Pro';
+	font-weight: normal;
+	font-style: normal;
+}
+.world-cities1::before {
+	content: "";
+	background: url(../img/Layer3.png);
+	margin-left: -40px;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	margin-left: -55px;	
+	background-repeat: no-repeat;
+	background-size: contain;	
+}
+.world-cities2::before {
+	content: "";
+	background: url(../img/Layer2.png);
+	margin-left: -40px;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	margin-left: -55px;	
+	background-repeat: no-repeat;
+	background-size: contain;	
+}

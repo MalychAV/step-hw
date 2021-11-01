@@ -1,0 +1,434 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1170px;
+}
+
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url("../fonts/MyriadPro-Bold.eot");
+  src: local("Myriad Pro Bold"), local("MyriadPro-Bold"), url("../fonts/MyriadPro-Bold.woff") format("woff"), url("../fonts/MyriadPro-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url("../fonts/MyriadPro-Regular.eot");
+  src: local("Myriad Pro Regular"), local("MyriadPro-Regular"), url("MyriadPro-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro-Regular.woff") format("woff"), url("../fonts/MyriadPro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.world {
+  background: url(../img/Background.png);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 50px auto;
+  width: 1170px;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: 100% 100%;
+          background-size: 100%;
+}
+
+.world .world-continent {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.world .world__map {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: -webkit-calc(1170px  / 3);
+  width: calc(1170px  / 3);
+  height: 150px;
+}
+
+.world .world-america {
+  background: #003562;
+  opacity: .8;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 380px;
+}
+
+.world .world-europe {
+  background: #620360;
+  opacity: .8;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 380px;
+}
+
+.world .world-asia {
+  background: #9d0a0e;
+  opacity: .8;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 380px;
+}
+
+.world .world-none {
+  background: #003562;
+  opacity: .8;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 380px;
+}
+
+.world .world-africa {
+  background: #fff100;
+  opacity: .8;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 380px;
+}
+
+.world .world-australia {
+  background: #f7931d;
+  opacity: .8;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 380px;
+}
+
+.world .world-continent__name {
+  font-size: 38px;
+  color: white;
+  font-family: 'Myriad Pro';
+  font-weight: bold;
+  font-style: normal;
+}
+
+.world .world-country {
+  opacity: .8;
+  background: #2a2a2a;
+  height: 70%;
+  width: 300px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 35px;
+}
+
+.world .world-country__name {
+  font-size: 30px;
+  color: white;
+  margin-left: 100px;
+  margin-top: 10px;
+  font-family: 'Myriad Pro';
+  font-weight: bold;
+  font-style: normal;
+}
+
+.world .world-country__name::before {
+  content: "";
+  background: url(../img/flag.png);
+  margin-left: -30px;
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  margin-left: -100px;
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+          background-size: contain;
+  margin-top: -10px;
+}
+
+.world .world-cities {
+  font-size: 26px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+.world .world-cities1 {
+  color: white;
+  margin-right: 30px;
+  margin-left: 70px;
+  font-size: 21px;
+  margin-top: 20px;
+  font-family: 'Myriad Pro';
+  font-weight: normal;
+  font-style: normal;
+}
+
+.world .world-cities2 {
+  color: white;
+  margin-right: 30px;
+  margin-left: 70px;
+  font-size: 21px;
+  margin-top: 20px;
+  margin-right: 100px;
+  font-family: 'Myriad Pro';
+  font-weight: normal;
+  font-style: normal;
+}
+
+.world .world-cities1::before {
+  content: "";
+  background: url(../img/Layer3.png);
+  margin-left: -40px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  margin-left: -55px;
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+          background-size: contain;
+}
+
+.world .world-cities2::before {
+  content: "";
+  background: url(../img/Layer2.png);
+  margin-left: -40px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  margin-left: -55px;
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+          background-size: contain;
+}
+
+.world-continent {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.world__map {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: -webkit-calc(1170px  / 3);
+  width: calc(1170px  / 3);
+  height: 150px;
+}
+
+.world-america {
+  background: #003562;
+  opacity: .8;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 380px;
+}
+
+.world-europe {
+  background: #620360;
+  opacity: .8;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 380px;
+}
+
+.world-asia {
+  background: #9d0a0e;
+  opacity: .8;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 380px;
+}
+
+.world-none {
+  background: #003562;
+  opacity: .8;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 380px;
+}
+
+.world-africa {
+  background: #fff100;
+  opacity: .8;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 380px;
+}
+
+.world-australia {
+  background: #f7931d;
+  opacity: .8;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 380px;
+}
+
+.world-continent__name {
+  font-size: 38px;
+  color: white;
+  font-family: 'Myriad Pro';
+  font-weight: bold;
+  font-style: normal;
+}
+
+.world-country {
+  opacity: .8;
+  background: #2a2a2a;
+  height: 70%;
+  width: 300px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 35px;
+}
+
+.world-country__name {
+  font-size: 30px;
+  color: white;
+  margin-left: 100px;
+  margin-top: 10px;
+  font-family: 'Myriad Pro';
+  font-weight: bold;
+  font-style: normal;
+}
+
+.world-country__name::before {
+  content: "";
+  background: url(../img/flag.png);
+  margin-left: -30px;
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  margin-left: -100px;
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+          background-size: contain;
+  margin-top: -10px;
+}
+
+.world-cities {
+  font-size: 26px;
+  color: white;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+.world-cities1 {
+  color: white;
+  margin-right: 30px;
+  margin-left: 70px;
+  font-size: 21px;
+  margin-top: 20px;
+  font-family: 'Myriad Pro';
+  font-weight: normal;
+  font-style: normal;
+}
+
+.world-cities2 {
+  color: white;
+  margin-right: 30px;
+  margin-left: 70px;
+  font-size: 21px;
+  margin-top: 20px;
+  margin-right: 100px;
+  font-family: 'Myriad Pro';
+  font-weight: normal;
+  font-style: normal;
+}
+
+.world-cities1::before {
+  content: "";
+  background: url(../img/Layer3.png);
+  margin-left: -40px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  margin-left: -55px;
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+          background-size: contain;
+}
+
+.world-cities2::before {
+  content: "";
+  background: url(../img/Layer2.png);
+  margin-left: -40px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  margin-left: -55px;
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+          background-size: contain;
+}
+/*# sourceMappingURL=style.css.map */
