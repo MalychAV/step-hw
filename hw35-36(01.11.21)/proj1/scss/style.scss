@@ -1,0 +1,112 @@
+@import "./var";
+@import "./mixins";
+@import "./common";
+@import "./media";
+@import "./fonts";
+
+
+
+
+.phone {
+    display: flex;    
+    &__card {       
+        width: calc( 1170px / 4 );
+        border: 1px solid silver;
+        margin-right: 10px;
+    }
+    &__img {
+        width: 85%;
+        height: 65%;
+    }
+    &__name {
+        font-family: 'latoregular';
+        font-weight: bold;
+        font-style: normal;
+        height: 50px;
+        font-size: 14px;
+        margin-right: 15px;
+        margin-left: 15px;        
+        @include flex(center, center);       
+    }  
+    &__user-action {
+        @include flex (center);
+    }
+    &__actions {
+        @include flex(center, center);
+        margin-right: 10px;
+        margin-bottom: 10px;
+        width: $phoneActionSize;
+        height: $phoneActionSize;
+        border-radius: 50%;  
+        transition: transform .3s; 
+        &:hover {
+            cursor: pointer;
+            transform: scale(1.3);
+        }
+            &-first {
+                  background: $phoneActionFirstBg;
+                  border: $phoneActionFirstBrd;                  
+              }
+            &-second {
+                background: $phoneActionSecondBg;
+                border: $phoneActionSecondBrd;
+            }
+            &-third {
+                background: $phoneActionThirdBg;
+            }
+            
+    }
+    &__credits {
+        @include flex(center, center);
+        margin: auto;
+        height: 50px;
+        &-style {
+            width: 25%;
+            margin-left: 10px;
+            margin-top: 10px;
+            transition: transform .3s; 
+            &:hover {
+                cursor: pointer;
+                transform: scale(1.1);
+            }
+         } 
+    
+    }  
+    &__raiting {
+        @include flex(space-between, center, row); 
+            &-item {
+                margin-left: 5px;
+                margin-right: 5px;
+                color: red;
+                transition: transform .3s; 
+                &:hover {
+                    cursor: pointer;
+                    transform: scale(1.1);
+                }
+            }   
+        
+    }
+    &__price {
+        
+        &-style {
+            @include flex(space-between, center, row); 
+            margin-left: 15px;
+            margin-right: 15px;
+            font-family: 'latoregular';
+            font-weight: bold;
+            font-style: normal;
+            position: relative;
+        }
+        &-title::before {
+            content: '19999₴';
+            text-decoration:line-through;
+            position: absolute;
+            top: -5px;
+
+        }
+    }
+    
+
+}
+
+
