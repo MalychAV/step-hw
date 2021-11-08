@@ -1,0 +1,36 @@
+@media (max-width: 1140px) {
+	.header {  
+                position: relative;
+		align-items: center;
+		padding: 10px 0;              
+                &__toggle {
+                        display: flex;
+                    }
+                &__logo {
+                left: 200px;                
+                }
+                &__menu-item {
+                        display: none;
+                }                
+	}
+
+        .main {
+                opacity: 0.7;
+                &__content-title {
+                        color: green;  
+                        font-weight: bold;
+                
+                    }
+                &__content-title1 {
+                        color: green;
+                        font-weight: bold;
+                    }
+        }
+
+
+
+
+
+        
+
+}
